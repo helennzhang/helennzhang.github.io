@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.19a7a32f.chunk.css",
-    "main.js": "/static/js/main.9a62a18e.chunk.js",
-    "main.js.map": "/static/js/main.9a62a18e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.36c3b5c9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.36c3b5c9.js.map",
-    "static/js/2.8bdf35d1.chunk.js": "/static/js/2.8bdf35d1.chunk.js",
-    "static/js/2.8bdf35d1.chunk.js.map": "/static/js/2.8bdf35d1.chunk.js.map",
+    "main.js": "/static/js/main.83a1f9bb.chunk.js",
+    "main.js.map": "/static/js/main.83a1f9bb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4e17981a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4e17981a.js.map",
+    "static/js/2.9958820c.chunk.js": "/static/js/2.9958820c.chunk.js",
+    "static/js/2.9958820c.chunk.js.map": "/static/js/2.9958820c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.512428084ca1f10389365b1048febdc5.js": "/precache-manifest.512428084ca1f10389365b1048febdc5.js",
+    "precache-manifest.f072637b484121aff88ff494e200a1b3.js": "/precache-manifest.f072637b484121aff88ff494e200a1b3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.19a7a32f.chunk.css.map": "/static/css/main.19a7a32f.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
@@ -21,9 +21,9 @@
     "static/media/vanderbiltLogo.jpg": "/static/media/vanderbiltLogo.bd895cf4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.36c3b5c9.js",
-    "static/js/2.8bdf35d1.chunk.js",
+    "static/js/runtime-main.4e17981a.js",
+    "static/js/2.9958820c.chunk.js",
     "static/css/main.19a7a32f.chunk.css",
-    "static/js/main.9a62a18e.chunk.js"
+    "static/js/main.83a1f9bb.chunk.js"
   ]
 }
