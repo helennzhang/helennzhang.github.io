@@ -4,7 +4,6 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
@@ -20,7 +19,6 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
                 className={
@@ -33,7 +31,6 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
                 <Button
                   text="See my resume"
                   newTab={true}
@@ -45,7 +42,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <img
               alt="saad sitting on table"
-              src={require("../../assets/images/manOnTable.svg")}
+              src={require("../../assets/images/IMG_7098.jpg")}
             ></img>
           </div>
         </div>

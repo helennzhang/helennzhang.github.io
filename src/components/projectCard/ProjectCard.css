@@ -1,26 +1,22 @@
-.card-image {
-  max-width: 100%;
-  height: auto;
-  width: 250px;
-}
 .card-title {
-  color: #000000;
-  font-size: 22px;
-  line-height: 24px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #24292e;
   font-weight: 700;
-  margin: 15px 0 0 0;
+  letter-spacing: -.5px;
+  overflow: hidden;
+  margin: 0;
 }
 .card-subtitle {
-  color: #666666;
-  font-size: 17px;
-  line-height: 1.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 .certificate-card {
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-  padding: 1.5rem;
-  border-radius: 10px;
-  border: 1px solid rgba(211, 211, 211, 0.397);
+  color: #586069;
+  background-color: #fff;
+  box-shadow: 0 10px 30px -15px rgba(0,0,0,.2);
+  padding: 2rem;
+  cursor: pointer;
 }
 .certificate-detail-div {
   text-align: center;
@@ -36,8 +32,9 @@
 }
 .achievement-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem 1rem;
+  grid-gap: 1rem 1rem;
 }
 .certificate-card-footer {
   display: flex;

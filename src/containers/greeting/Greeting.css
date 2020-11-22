@@ -45,9 +45,9 @@
   line-height: 40px;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+.greeting-image-div > img { 
+  float: right;
+  max-width: 80%;
 }
 .wave-emoji {
   animation-duration: 1.8s;
