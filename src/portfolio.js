@@ -10,9 +10,8 @@ const greeting = {
   username: "Helen Zhang",
   title: "Hi, I'm Helen",
   subTitle: emoji("I am a senior at Vanderbilt double majoring in Computer Science and Mathematics. \
-  I have experience in using Python and its various libraries for data analytics. I\
-  also enjoy building Web applications with JavaScript / Reactjs / Nodejs."),
-  resumeLink: "https://drive.google.com/file/d/1OIR_mohRwfzMmIeMFWiN44-CcteePeCj/view?usp=sharing"
+  I will be joining Robinhood as a Backend Engineer after I graduate this May!"),
+  resumeLink: "https://drive.google.com/file/d/1K7sFsH4AZBybrZpgNpqYpaH1t0DeZo2t/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -74,7 +73,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science and Mathematics",
       duration: "August 2017 - May 2021",
       descBullets: [
-        "Teaching Assistant and Grader for Intro to Programming in Python (Spring 2020) and Discrete Structures (Fall 2020)",
+        "Teaching Assistant and Grader for Intro to Programming in Python (Spring 2020) and Discrete Structures (Fall 2020, Spring 2021)",
         "Board member of the Philippine Intercultural Student Organization (PISO) and Vanderbilt Asian Pre-Professional Society (VAPS)"
       ]
     }
@@ -116,11 +115,24 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Backend Engineer Intern (Incoming)",
+      role: "Backend Engineer",
+      company: "Robinhood",
+      companylogo: require("./assets/images/robinhoodLogo.png"),
+      date: "May 2021 -- Present",
+      desc: "I will be joining Robinhood after graduation as a member of the Lending and Settlement team in the NYC office!"
+    },
+    {
+      role: "Backend Engineer Intern",
       company: "Robinhood",
       companylogo: require("./assets/images/robinhoodLogo.png"),
       date: "January 2021 – May 2021",
-      desc: "I will be completing a 4 month Software Engineering Co-op at Robinhood during my final semester at Vanderbilt"
+      desc: "Worked on the Clearing team as part of the effort to scale ACATS out to 3x",
+      descBullets: [
+        "Helped implement a new lock and email flow for ACATS received, which greatly helped alleviate operational burden",
+        "Refactored ACAT acceptance check logic to increase automation for partial ACATs out, which helped increase overall\
+        automation to nearly 95%",
+        "Helped increase ACAT accepted percentage to 85%, which is much more in-line with industry standards"
+      ]
     },
     {
       role: "Software Engineer Intern",
